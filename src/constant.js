@@ -14,6 +14,7 @@ import {
   algebra1,
   algebra2,
   calculus,
+  path,
 } from "./assets";
 
 export const roles = [
@@ -88,5 +89,20 @@ export const mathOptions = [
     image: calculus,
     title: "Calculus",
     level: "Advanced",
+  },
+];
+
+export const learningPaths = [
+  {
+    popular: true,
+    image: path,
+    title: "Foundational Math",
+    desc: "Build your foundational skills using in algebra, geometry, and probability.",
+  },
+  {
+    popular: false,
+    image: path,
+    title: "Mathematical Thinking",
+    desc: "Build your foundational skills using in algebra, geometry, and probability.",
   },
 ];

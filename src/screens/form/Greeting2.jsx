@@ -4,7 +4,7 @@ const Greeting2 = () => {
   return (
     <div>
       <div className="greet md:grid grid-cols-2 items-center">
-        <img src={teacherbanner} alt="" />
+        <img src={teacherbanner} alt="" className=" h-[80%]" />
         <div className="info">
           <p className=" font-bold text-2xl">You're on your way!</p>
           <div className=" flex gap-1 my-2">

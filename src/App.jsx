@@ -44,7 +44,7 @@ const App = () => {
     <div className=" flex text-sm md:text-base justify-center items-center h-screen md:px-40 px-4 w-screen">
       <div className=" w-full ">
         {pageNo <= 4 && (
-          <div className="progressbar-container md:h-[20vh] h-[5vh] flex  items-center gap-2 w-full">
+          <div className="progressbar-container md:h-[10vh] h-[5vh] flex  items-center gap-2 w-full">
             {pageNo !== 0 && (
               <FontAwesomeIcon
                 icon={faChevronLeft}
@@ -65,14 +65,16 @@ const App = () => {
         <div className="flex justify-center h-[80vh] items-center">
           <div>{renderComponent()}</div>
         </div>
-        <div className=" flex justify-center items-center">
-          <button
-            onClick={goForward}
-            className=" bg-black text-white px-8 py-2 rounded-md"
-          >
-            Continue
-          </button>
-        </div>
+        {pageNo !== 5 && (
+          <div className=" flex justify-center items-center">
+            <button
+              onClick={goForward}
+              className=" bg-black text-white px-8 py-2 rounded-md"
+            >
+              Continue
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

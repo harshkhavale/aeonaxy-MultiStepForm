@@ -15,11 +15,11 @@ const MathForm = () => {
           later.{")"}
         </p>
       </header>
-      <main className="flex items-center justify-center flex-wrap gap-2">
+      <main className="flex items-center justify-center flex-wrap md:flex-nowrap gap-2 md:gap-4">
         {mathOptions.map((option, index) => (
           <div
             onClick={() => setSelectedLevel(option.title)}
-            className={`flex flex-col w-5/12 items-center border-2 rounded-2xl border-gray-200 gap-4 p-4 shadow-sm ${
+            className={`flex cursor-pointer flex-col w-5/12 md:h-[30vh] items-center border-2 rounded-2xl border-gray-200 gap-4 p-4 shadow-sm ${
               selectedLevel === option.title
                 ? "border border-yellow-600 shadow-md"
                 : "border border-gray-100"
@@ -29,10 +29,10 @@ const MathForm = () => {
             <img
               src={option.image}
               alt={option.title}
-              className="md:w-auto w-full h-full"
+              className=" w-full h-full md:h-[10vh] md:w-auto"
             />
             <div className="flex flex-col justify-center items-center">
-              <p className="font-bold">{option.title}</p>
+              <p className="font-bold text-center">{option.title}</p>
               <p className="">{option.level}</p>
             </div>
           </div>

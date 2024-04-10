@@ -5,7 +5,7 @@ const Greeting1 = () => {
   return (
     <div>
       <div className="greet md:grid grid-cols-2 items-center">
-        <img src={studentbanner} alt="" />
+        <img src={studentbanner} alt="" className=" h-[80%]" />
         <div className="info">
           <p className=" font-bold text-2xl">You're in the right place</p>
           <p>

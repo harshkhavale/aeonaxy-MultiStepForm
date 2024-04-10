@@ -18,7 +18,10 @@ import arithematic from "./arithematic.png";
 import algebra1 from "./algebra1.png";
 import algebra2 from "./algebra2.png";
 import calculus from "./calculus.png";
+//
+import path from "./path.jpg";
 export { student, professional, parent, lifelonglearner, teacher, other };
 export { linechart, globe, vector, target, eyes };
 export { studentbanner, teacherbanner };
 export { arithematic, algebra1, algebra2, calculus };
+export { path };
