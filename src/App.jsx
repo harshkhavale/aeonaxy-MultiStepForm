@@ -45,7 +45,7 @@ const App = () => {
       <div className=" w-full ">
         {pageNo <= 4 && (
           <div className="progressbar-container md:h-[20vh] h-[5vh] flex  items-center gap-2 w-full">
-            {pageNo != 0 && (
+            {pageNo !== 0 && (
               <FontAwesomeIcon
                 icon={faChevronLeft}
                 onClick={goBackword}
