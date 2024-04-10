@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# aeonaxy-multi step form
+
+![screencapture-localhost-3000-2024-04-10-22_51_53](https://github.com/harshkhavale/aeonaxy-MultiStepForm/assets/91471322/5cd477f8-ae04-46d2-a6a9-693b07cb6a3a)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## key features
+Multi-Step Form: The core feature of the project is the multi-step form itself. It breaks down a potentially lengthy or complex form into smaller, more manageable steps.
 
-In the project directory, you can run:
+Well-Structured Components: The project utilizes well-structured React components to organize and manage the form's various sections and fields. Each step of the form is encapsulated within its own component, promoting code reusability and maintainability.
+
+Responsive Design: The form is designed to be responsive, ensuring that it displays properly and remains functional across a variety of devices and screen sizes, including desktops, laptops, tablets, and smartphones.
+
+Tailwind CSS Styling: The project leverages Tailwind CSS for styling, allowing for rapid prototyping and consistent design elements throughout the application. Tailwind's utility-first approach enables quick customization and flexibility in styling components.
+
+Font Awesome Icons: Font Awesome icons are integrated into the project to enhance the visual appeal and usability of various elements within the form, such as buttons, input fields, and navigation controls.
+
 
 ### `npm start`
 
