@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { roles } from "../../constant";
-import useMediaQuery from "@mui/material/useMediaQuery";
 
 const RoleForm = () => {
   const [selectedRole, setSelectedRole] = useState();
