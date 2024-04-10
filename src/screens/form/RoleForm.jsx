@@ -3,8 +3,6 @@ import { roles } from "../../constant";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 const RoleForm = () => {
-  const isNonMobile = useMediaQuery("(min-width:1000px)");
-
   const [selectedRole, setSelectedRole] = useState();
   return (
     <div className=" flex flex-col gap-10">
@@ -19,7 +17,7 @@ const RoleForm = () => {
           <div
             onClick={() => setSelectedRole(role.role)}
             className={`flex items-center rounded-md gap-4 p-4 shadow-sm ${
-              selectedRole == role.role
+              selectedRole === role.role
                 ? "border border-yellow-600 shadow-md"
                 : "border border-gray-100"
             }`}

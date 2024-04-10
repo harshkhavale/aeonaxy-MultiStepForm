@@ -20,7 +20,7 @@ const MathForm = () => {
           <div
             onClick={() => setSelectedLevel(option.title)}
             className={`flex flex-col w-5/12 items-center border-2 rounded-2xl border-gray-200 gap-4 p-4 shadow-sm ${
-              selectedLevel == option.title
+              selectedLevel === option.title
                 ? "border border-yellow-600 shadow-md"
                 : "border border-gray-100"
             }`}

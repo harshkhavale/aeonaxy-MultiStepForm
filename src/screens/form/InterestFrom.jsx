@@ -20,7 +20,7 @@ const InterestForm = () => {
           <div
             onClick={() => setSelectedInterest(index)}
             className={`flex items-center rounded-md gap-4 p-4 shadow-sm ${
-              selectedInterest == index
+              selectedInterest === index
                 ? "border border-yellow-600 shadow-md"
                 : "border border-gray-100"
             }`}
