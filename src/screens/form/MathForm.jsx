@@ -19,7 +19,7 @@ const MathForm = () => {
         {mathOptions.map((option, index) => (
           <div
             onClick={() => setSelectedLevel(option.title)}
-            className={`flex cursor-pointer flex-col w-5/12 md:h-[30vh] items-center border-2 rounded-2xl border-gray-200 gap-4 p-4 shadow-sm ${
+            className={`flex cursor-pointer flex-col w-5/12 h-[25vh] md:h-[30vh] items-center border-2 rounded-2xl border-gray-200 gap-4 p-4 shadow-sm ${
               selectedLevel === option.title
                 ? "border border-yellow-600 shadow-md"
                 : "border border-gray-100"
@@ -29,7 +29,7 @@ const MathForm = () => {
             <img
               src={option.image}
               alt={option.title}
-              className=" w-full h-full md:h-[10vh] md:w-auto"
+              className=" w-full h-auto md:h-[10vh] md:w-auto"
             />
             <div className="flex flex-col justify-center items-center">
               <p className="font-bold text-center">{option.title}</p>
